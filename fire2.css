@@ -600,7 +600,7 @@ table th {
   }
   
   .dropdown {
-    top: 30px;
+    top: 35px;
   }
   
   .dropdown li:hover {
@@ -629,7 +629,7 @@ table th {
   outline: 1.5px var(--background-secondary-color) solid;
   border-radius: 8px;
   flex: 1 0 47%;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .card img, .card svg {
@@ -654,7 +654,7 @@ table th {
 .badge {
   background: linear-gradient(90deg, var(--accent-primary-color), var(--accent-secondary-color));
   color: var(--foreground-secondary-color);
-  padding: 2px 7px;
+  padding: 3px 7px;
   margin-left: 8px;
   border-radius: 5px;
   font-weight: bold;
@@ -663,7 +663,7 @@ table th {
 .alert {
   background: linear-gradient(90deg, var(--accent-primary-color), var(--accent-secondary-color));
   color: var(--foreground-secondary-color);
-  font-size: 18px;
+  font-size: 16.5px;
   padding: 15px 12.5px;
   border-radius: 10px;
 }
@@ -671,11 +671,11 @@ table th {
 .spinner {
   width: 40px;
   height: 40px;
-  border: 4px var(--background-primary-color) solid;
+  border: 5px var(--background-primary-color) solid;
   border-radius: 50%;
-  border-top: 4px var(--accent-primary-color) solid;
-  border-right: 4px var(--accent-primary-color) solid;
-  border-bottom: 4px var(--accent-primary-color) solid;
+  border-top: 5px var(--accent-primary-color) solid;
+  border-right: 5px var(--accent-primary-color) solid;
+  border-bottom: 5px var(--accent-primary-color) solid;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
