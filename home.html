@@ -2,16 +2,16 @@
 <html>
 
 <head>
-    <link rel="icon" height="24" width="35.8" href="icon.jpg"/>
+    <link rel="icon" height="24" width="35.8" href="icon.jpg" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrity - Home</title>
 
     <link rel="stylesheet" href="fire2.css">
-<script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+    <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
 </head>
 
-<body>
+<body onload="dateTest()">
     <nav class="navbar">
         <a href="https://integrity.genocidesilver.repl.co/home.html"> Home</a>
         <ul class="nav-links">
@@ -35,19 +35,21 @@
             <script type="module">const user = await getUserInfo()</script>
 
             <h4>Welcome to Integrity.</h4></br>
-            <h6>January 11, 2023 UTC</h6></br>
+            <p id="date"></p></br>
 
             <button type="button" onclick="change()">Click... Or Else...</button>
 
             <p id="change">Times Clicked: 0</p></br>
         </center>
 
-        &nbsp;</br>&nbsp;</br> &nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>
+        &nbsp;</br>&nbsp;</br>
+        &nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>
         </h1>
     </main>
-    <script src="script.js"></script>
 
     <div class="footer">© Jan 2023 <a href="/">GenocideSilver</a></div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
