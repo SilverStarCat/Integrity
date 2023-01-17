@@ -33,9 +33,18 @@ function dateTest2() {
         console.error("Error Detected.")
     };
 };
+
 function dateTest3() {
     try {
         document.getElementById("date3").innerHTML = currentDate;
+    } catch (e) {
+        console.error("Error Detected.")
+    };
+};
+
+function dateTest4() {
+    try {
+        document.getElementById("date4").innerHTML = currentDate;
     } catch (e) {
         console.error("Error Detected.")
     };
